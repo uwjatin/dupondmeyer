@@ -20,4 +20,4 @@ jobs:
           user: ${{ secrets.SFTP_USER }}
           pass: ${{ secrets.SFTP_PASS }}
           localDir: './'
-          remoteDir: '/site'
+          remoteDir: '/site/site'
