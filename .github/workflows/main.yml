@@ -21,3 +21,4 @@ jobs:
           pass: ${{ secrets.SFTP_PASS }}
           localDir: './'
           remoteDir: '/'
+          options: '--ignore-time --verbose'
